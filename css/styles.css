@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;/*se ajusta al tamaño del contenedor*/
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+/*inicio header*/
+header{
+  background-color: #000;
+}
+#logos{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+#copa img{
+  width: 100px;
+}
+#fifa img{
+  width: 191px;
+}
+ 
+/*fin header*/
+/*comienzo nav*/
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  border-bottom: solid 1px #aaa;
+  background-color: #eee;
+  text-transform: uppercase;
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 1px #aaa;
+  text-align: center;
+  text-decoration: none;
+  color: #555;
+}
+
+nav a[aria-current='page'] {
+  color: #000;
+  background-color: #d4d4d4;
+}
+.activo{
+  border-bottom: 5px solid darkcyan;
+  box-shadow: 5px 5px lightgray;
+}
+
+/*fin nav*/
+
+/*inicio main*/
+section{
+  width: 1000px;
+  background-color: aquamarine;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+section div{
+  width: 33%;
+  height: 350px;
+  background-color: yellow;
+  margin-left: 2px;
+}
+#intro{
+  background-image: url(https://i.pinimg.com/736x/05/3b/1a/053b1ac0b80d38b0e375ba06de589445.jpg);
+  /*background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  */
+  box-shadow: 5px 3px grey;
+  border-radius: 15px;
+}
+#eeuu{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_the_United_States_%281912-1959%29.svg/3840px-Flag_of_the_United_States_%281912-1959%29.svg.png);
+  background-size: cover;
+}
+#mx{
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/006/601/767/small/mexico-flag-with-waving-effect-official-proportion-vector.jpg);
+  background-size: cover;
+    } 
+#can{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqRwZF-nsN4G1ENmU7eBbVlZlCtUmSlblpMg&amp;s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+    
+
+
+
+/*fin de main*/
+
+/*inicio del footer*/
+footer{
+  background-color: #000;
+  color:  #d4d4d4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#colegio{
+ width: 33%;
+ background-color: red;
+ padding: 5px;
+}
+#colegio a{
+  color: #aaa;
+}
+#alumno{
+  width: 33%;
+background-color: yellow;
+color: #aaa;
+padding: 5px;
+}
+#redes{
+  width: 33%;
+background-color: lightblue;
+padding: 5px;
+}
+#redes img{
+  width: 50px;
+}
+
+
+
+
+/*fin del footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
