@@ -164,3 +164,18 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+.multimedia{
+  width: 800px;
+  background-color: aquamarine;
+}
+.multimedia video{
+  width: 600px;
+}
+/*estadios*/
+#estadosunidos, #estadosunidos tr,#estadosunidos td,#estadosunidos th{
+  border:solid aquamarine 3px ;
+  border-collapse: collapse;
+}
+#estadosunidos img{
+  width: 200px;
+}
