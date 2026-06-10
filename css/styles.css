@@ -76,7 +76,8 @@ section div{
   width: 300px;
   height: 170px;
   background-color: yellow;
-  margin-left: 2px;
+ 
+   margin: 5px;
 }
 #intro{
   background-image: url(https://i.pinimg.com/736x/05/3b/1a/053b1ac0b80d38b0e375ba06de589445.jpg);
@@ -88,15 +89,15 @@ section div{
   border-radius: 15px;
 }
 #eeuu{
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Flag_of_the_United_States_%281912-1959%29.svg/3840px-Flag_of_the_United_States_%281912-1959%29.svg.png);
+  background-image: url(../img/Flag_of_the_United_States.svg.jpg);
   background-size: cover;
 }
 #mx{
-  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/006/601/767/small/mexico-flag-with-waving-effect-official-proportion-vector.jpg);
+  background-image: url(../img/Flag_of_Mexico.svg\ -\ copia\ -\ copia.jpg);
   background-size: cover;
     } 
 #can{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqRwZF-nsN4G1ENmU7eBbVlZlCtUmSlblpMg&amp;s);
+    background-image: url(../img/images.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -163,19 +164,4 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
-}
-.multimedia{
-  width: 800px;
-  background-color: aquamarine;
-}
-.multimedia video{
-  width: 600px;
-}
-/*estadios*/
-#estadosunidos, #estadosunidos tr,#estadosunidos td,#estadosunidos th{
-  border:solid aquamarine 3px ;
-  border-collapse: collapse;
-}
-#estadosunidos img{
-  width: 200px;
 }
