@@ -82,17 +82,17 @@ margin: 5px;
   border-radius: 15px;
 }
 #eeuu{
-  background-image: url(../img/banderaeeuu.png);
+  background-image: url(../img/banderaeeuu.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 #mx{
-  background-image: url(../img/banderamx.png);
+  background-image: url(../img/banderamex.jpg);
   background-size: cover;
   background-position:center ;
 }
 #can{
-  background-image: url(../img/banderacan.svg);
+  background-image: url(../img/banderacan.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
